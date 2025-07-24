@@ -1,0 +1,12 @@
+@import url(./global.css);
+@import url(./fonts.css);
+@import url(./header.css);
+@import url(./bookingMenu.css);
+@import url(./main.css);
+@import url(./footer.css);
+@import url(./rectangleCard.css);
+@import url(./squareCard.css);
+@import url(./carrousel.css);
+@import url(./break-1115.css) (max-width: 1115px);
+@import url(./break-960.css) (max-width: 960px);
+@import url(./break-670.css) (max-width: 670px);

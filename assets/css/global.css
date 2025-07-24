@@ -1,0 +1,35 @@
+* {
+    font-family: 'easyJet Rounded Book';
+}
+
+body {
+    overflow-x: hidden;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    font-family: 'easyJet Rounded Book';
+}
+
+p {
+    font-family: 'easyJet Rounded Book';
+}
+
+div {
+    font-family: 'easyJet Rounded Book';
+}
+
+.container {
+    max-width: 960px;
+    margin: 0 auto;
+}
+
+button {
+    background-color: #ff7701;
+    color: white;
+    border-radius: 2px;
+    border: none;
+    padding: 10px 25px;
+    font-size: 15px;
+}

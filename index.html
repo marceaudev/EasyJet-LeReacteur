@@ -1,0 +1,464 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="shortcut icon" href="./assets/imgs/tab-logo.png" />
+        <title>EasyJet - LeReacteur</title>
+        <link rel="stylesheet" href="./assets/css/reset.css" />
+        <link rel="stylesheet" href="./assets/css/style.css" />
+        <link rel="shortcut icon" href="./assets/imgs/tab-logo.png" />
+        <script
+            src="https://kit.fontawesome.com/563cfc60e7.js"
+            crossorigin="anonymous"
+        ></script>
+    </head>
+    <body>
+        <!-- HEADER -->
+        <header>
+            <!-- NAV -->
+            <nav>
+                <div class="left-nav">
+                    <i class="fa-solid fa-bars mobile-menu"></i>
+                    <img
+                        src="./assets/imgs/ej-title.png"
+                        alt="Logo d'EasyJet"
+                    />
+                    <ul>
+                        <li><a href="#">Infos de vol</a></li>
+                        <li><a href="#">Voitures/Autres services</a></li>
+                        <li><a href="#">Business</a></li>
+                        <li><a href="#">Hôtels</a></li>
+                        <li><a href="#">Mes réservations</a></li>
+                    </ul>
+                </div>
+                <div class="right-nav">
+                    <ul>
+                        <li><button class="register">S'enregistrer</button></li>
+                        <li><a href="#">Se connecter</a></li>
+                        <li><a href="#">Aide</a></li>
+                        <li>
+                            <a href="#"
+                                >fr-FR
+                                <img
+                                    src="./assets/imgs/drapeau.png"
+                                    alt="Drapeau français"
+                            /></a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+            <!-- HERO -->
+            <section class="hero">
+                <div class="first-part">
+                    <div class="booking-menu">
+                        <div class="booking-category">
+                            <div class="vols">Vols</div>
+                            <div class="hotels">Hôtels</div>
+                            <div class="voitures">Voitures</div>
+                        </div>
+                        <div class="booking-content">
+                            <div class="booking-checkbox">
+                                <input
+                                    type="checkbox"
+                                    name="checkbox"
+                                    id="checkbox"
+                                />
+                                <label for="checkbox">Aller simple</label>
+                            </div>
+                            <div class="booking-from-to">
+                                <div class="from-to-left">
+                                    <div>
+                                        <label for="from">De:</label>
+                                        <input
+                                            type="text"
+                                            name="from"
+                                            id="from"
+                                        />
+                                    </div>
+                                    <span class="line"></span>
+                                    <div>
+                                        <label for="from">A:</label>
+                                        <input type="text" name="to" id="to" />
+                                    </div>
+                                </div>
+                                <div class="from-to-right">
+                                    <i class="fa-solid fa-list"></i>
+                                    <i class="fa-solid fa-list"></i>
+                                </div>
+                            </div>
+                            <div class="booking-go-back">
+                                <div>
+                                    <i class="fa-solid fa-calendar-days"></i>
+                                    <label for="go">Aller</label>
+                                    <input type="text" name="go" id="go" />
+                                </div>
+                                <span class="line"></span>
+                                <div>
+                                    <i class="fa-solid fa-calendar-days"></i>
+                                    <label for="back">Retour</label>
+                                    <input type="text" name="back" id="back" />
+                                </div>
+                            </div>
+                            <div class="booking-person">
+                                <div>
+                                    <div>
+                                        <p>Adultes (16+)</p>
+                                    </div>
+                                    <div>
+                                        <span>-</span>
+                                        <p class="number">1</p>
+                                        <span>+</span>
+                                    </div>
+                                </div>
+                                <div>
+                                    <div>
+                                        <p>Enfants (2-15)</p>
+                                    </div>
+                                    <div>
+                                        <span class="grey">-</span>
+                                        <p class="number">0</p>
+                                        <span>+</span>
+                                    </div>
+                                </div>
+                                <div>
+                                    <div>
+                                        <p>Bébé (<2)</p>
+                                    </div>
+                                    <div>
+                                        <span class="grey">-</span>
+                                        <p class="number">0</p>
+                                        <span>+</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <button>Affichez les vols ></button>
+                            <div class="booking-info">
+                                <a href="#"
+                                    >A propos de l'assistance spéciale ></a
+                                >
+                                <a href="#"
+                                    >Nous compensons nos émissions carbone ></a
+                                >
+                            </div>
+                        </div>
+                    </div>
+                    <div class="hero-announce">
+                        <h1>NAGER. DORMIR. MANGER. RECOMMENCER.</h1>
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipisicing
+                            elit. Ut, laborum?
+                        </p>
+                        <div>
+                            <p class="start-at">à partir de</p>
+                            <p class="price">29,75€</p>
+                        </div>
+                        <button>Réservez-maintenant ></button>
+                    </div>
+                </div>
+                <div class="top-destination">
+                    <div>
+                        <div class="destination">
+                            <div>
+                                <p>Lisbonne</p>
+                                <p>
+                                    à partir de Paris Charles de Gaulle 29,75€
+                                    nov.2023
+                                </p>
+                                <button>Réservez ></button>
+                            </div>
+                            <div>
+                                <p>Porto</p>
+                                <p>
+                                    à partir de Paris Charles de Gaulle 29,75€
+                                    nov.2023
+                                </p>
+                                <button>Réservez ></button>
+                            </div>
+                            <div>
+                                <p>Faro</p>
+                                <p>
+                                    à partir de Paris Charles de Gaulle 29,75€
+                                    nov.2023
+                                </p>
+                                <button>Réservez ></button>
+                            </div>
+                            <div>
+                                <p>Lisbonne</p>
+                                <p>
+                                    à partir de Paris Charles de Gaulle 29,75€
+                                    nov.2023
+                                </p>
+                                <button>Réservez ></button>
+                            </div>
+                        </div>
+                        <div class="destination-info">
+                            <p>
+                                Le prix indiqué est valable pour un aller
+                                simple, taxes incluses, à disponibilité limitée.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </header>
+        <main>
+            <div class="container">
+                <section class="main-content">
+                    <!-- FIST PART -->
+                    <div class="rectangle-card">
+                        <div class="card-image">
+                            <img
+                                src="./assets/imgs/worldwide-img.jpg"
+                                alt="Photo de la terre vu du ciel"
+                            />
+                        </div>
+                        <div class="card-content">
+                            <h2>WORLDWIDE</h2>
+                            <p>Lorem ipsum dolor sit amet.</p>
+                            <p>
+                                Lorem, ipsum dolor sit amet consectetur
+                                adipisicing elit. Qui accusantium atque odit
+                                dicta nulla corporis dolore sapiente eius porro
+                                placeat.
+                            </p>
+                            <button>En savoir plus</button>
+                        </div>
+                    </div>
+                    <!-- SECOND PART -->
+                    <div class="carrousel">
+                        <div class="square-card">
+                            <img
+                                src="./assets/imgs/carousel1.jpg"
+                                alt="Femme à la fenêtre d'une voiture"
+                            />
+                            <div class="square-card-content">
+                                <p>Lorem, ipsum dolor.</p>
+                                <p>
+                                    Lorem ipsum dolor, sit amet consectetur
+                                    adipisicing elit. Quasi nesciunt reiciendis
+                                    quam. Sed, est quos.
+                                </p>
+                                <button>En savoir plus</button>
+                            </div>
+                        </div>
+                        <div class="square-card">
+                            <img
+                                src="./assets/imgs/carousel2.jpg"
+                                alt="Femme qui touche une voiture"
+                            />
+                            <div class="square-card-content">
+                                <p>Lorem, ipsum dolor.</p>
+                                <p>
+                                    Lorem ipsum dolor, sit amet consectetur
+                                    adipisicing elit. Quasi nesciunt reiciendis
+                                    quam. Sed, est quos.
+                                </p>
+                                <button>Réservez dès maintenant</button>
+                            </div>
+                        </div>
+                        <div class="square-card">
+                            <img
+                                src="./assets/imgs/carousel3.jpg"
+                                alt="Femme avec une valise"
+                            />
+                            <div class="square-card-content">
+                                <p>Lorem, ipsum dolor.</p>
+                                <p>
+                                    Lorem ipsum dolor, sit amet consectetur
+                                    adipisicing elit. Quasi nesciunt reiciendis
+                                    quam. Sed, est quos.
+                                </p>
+                                <button>Devenez membre dès maintenant</button>
+                            </div>
+                        </div>
+                        <div class="square-card">
+                            <img
+                                src="./assets/imgs/carousel4.jpg"
+                                alt="Femme à la fenêtre d'une voiture"
+                            />
+                            <div class="square-card-content">
+                                <p>Lorem, ipsum dolor.</p>
+                                <p>
+                                    Lorem ipsum dolor, sit amet consectetur
+                                    adipisicing elit. Quasi nesciunt reiciendis
+                                    quam. Sed, est quos.
+                                </p>
+                                <button>En savoir plus</button>
+                            </div>
+                        </div>
+                        <div class="square-card">
+                            <img
+                                src="./assets/imgs/carousel5.jpg"
+                                alt="Homme et femme qui rigole ensemble"
+                            />
+                            <div class="square-card-content">
+                                <p>Lorem, ipsum dolor.</p>
+                                <p>
+                                    Lorem ipsum dolor, sit amet consectetur
+                                    adipisicing elit. Quasi nesciunt reiciendis
+                                    quam. Sed, est quos.
+                                </p>
+                                <button>En savoir plus</button>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- THIRD PART -->
+                    <div class="rectangle-card">
+                        <div class="card-image">
+                            <img
+                                src="./assets/imgs/bretagne.jpg"
+                                alt="Photo de la mer en bretagne"
+                            />
+                        </div>
+
+                        <div class="card-content">
+                            <h2>Lorem ipsum dolor sit.</h2>
+                            <p>
+                                Lorem ipsum dolor sit amet consectetur
+                                adipisicing elit. Delectus, esse iure aliquam
+                                praesentium sunt sapiente?
+                            </p>
+                            <p>
+                                Lorem ipsum dolor sit amet consectetur,
+                                adipisicing elit. Incidunt non atque voluptate
+                                eos quas, omnis nulla? Necessitatibus
+                                praesentium nihil officia quia illo laboriosam
+                                blanditiis ratione!
+                            </p>
+                            <button>Réservez maintenant</button>
+                        </div>
+                    </div>
+                    <!-- FOURTH PART -->
+                    <div class="info">
+                        <div class="info-card">
+                            <img
+                                src="./assets/imgs/triple-first.jpg"
+                                alt="Logo du globe avec un avion"
+                            />
+                            <div class="info-card-content">
+                                <h3>Développement durable</h3>
+                                <a href="#">En savoir plus ></a>
+                            </div>
+                        </div>
+                        <div class="info-card">
+                            <img
+                                src="./assets/imgs/triple-second.jpg"
+                                alt="Femme dans une avion qui écoute de la musique"
+                            />
+                            <div class="info-card-content">
+                                <h3>Apprivoiser votre peur de voler</h3>
+                                <a href="#">En savoir plus ></a>
+                            </div>
+                        </div>
+                        <div class="info-card">
+                            <img
+                                src="./assets/imgs/triple-third.jpg"
+                                alt="Photo du ciel vu du hublot d'un avion"
+                            />
+                            <div class="info-card-content">
+                                <h3>Inscrivez-vous à notre newsletter</h3>
+                                <a href="#">Profitez-en</a>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <section class="help">
+                    <h4>Comment pouvons-nous vous aider ?</h4>
+                    <div class="carrousel">
+                        <a href="">
+                            <div class="help-card">
+                                <p>Question fréquentes</p>
+                                <i class="fa-solid fa-circle-question"></i>
+                            </div>
+                        </a>
+                        <a href="">
+                            <div class="help-card">
+                                <p>Lorem, ipsum.</p>
+                                <i class="fa-solid fa-suitcase"></i>
+                            </div>
+                        </a>
+                        <a href="">
+                            <div class="help-card">
+                                <p>Lorem, ipsum.</p>
+                                <i class="fa-solid fa-clock"></i>
+                            </div>
+                        </a>
+                        <a href="">
+                            <div class="help-card">
+                                <p>
+                                    Protection contre les restrictions de voyage
+                                </p>
+                                <i class="fa-solid fa-mobile"></i>
+                            </div>
+                        </a>
+                        <a href="">
+                            <div class="help-card">
+                                <p>Lorem, ipsum.</p>
+                                <i class="fa-solid fa-pen"></i>
+                            </div>
+                        </a>
+                        <a href="">
+                            <div class="help-card">
+                                <p>Lorem, ipsum.</p>
+                                <i class="fa-solid fa-user-shield"></i>
+                            </div>
+                        </a>
+                        <a href="">
+                            <div class="help-card">
+                                <p>Lorem, ipsum.</p>
+                                <i class="fa-solid fa-plane"></i>
+                            </div>
+                        </a>
+                        <a href="">
+                            <div class="help-card">
+                                <p>Lorem, ipsum.</p>
+                                <i class="fa-solid fa-map-location"></i>
+                            </div>
+                        </a>
+                    </div>
+                </section>
+            </div>
+        </main>
+        <footer>
+            <div class="footer-container">
+                <ul>
+                    <p>Infos de vol</p>
+                    <li><a href="#">Lorem, ipsum.</a></li>
+                    <li><a href="#">Lorem, ipsum.</a></li>
+                    <li><a href="#">Lorem, ipsum.</a></li>
+                    <li><a href="#">Lorem, ipsum.</a></li>
+                    <li><a href="#">Lorem, ipsum.</a></li>
+                    <li><a href="#">Lorem, ipsum.</a></li>
+                    <li><a href="#">Lorem, ipsum.</a></li>
+                </ul>
+                <ul>
+                    <p>Services clientèle</p>
+                    <li><a href="#">Lorem, ipsum.</a></li>
+                    <li><a href="#">Lorem, ipsum.</a></li>
+                    <li><a href="#">Lorem, ipsum.</a></li>
+                    <li><a href="#">Lorem, ipsum.</a></li>
+                    <li><a href="#">Lorem, ipsum.</a></li>
+                    <li><a href="#">Lorem, ipsum.</a></li>
+                </ul>
+                <ul>
+                    <p>A propos d'EasyJet</p>
+                    <li><a href="#">Lorem, ipsum.</a></li>
+                    <li><a href="#">Lorem, ipsum.</a></li>
+                    <li><a href="#">Lorem, ipsum.</a></li>
+                    <li><a href="#">Lorem, ipsum.</a></li>
+                </ul>
+                <ul>
+                    <p>Termes et conditions</p>
+                    <li><a href="#">Lorem, ipsum.</a></li>
+                    <li><a href="#">Lorem, ipsum.</a></li>
+                    <li><a href="#">Lorem, ipsum.</a></li>
+                    <li><a href="#">Lorem, ipsum.</a></li>
+                    <li><a href="#">Lorem, ipsum.</a></li>
+                    <li><a href="#">Lorem, ipsum.</a></li>
+                    <li><a href="#">Lorem, ipsum.</a></li>
+                </ul>
+            </div>
+        </footer>
+    </body>
+</html>

@@ -1,0 +1,26 @@
+footer {
+    width: 100%;
+    background-color: #f2f2f3;
+    overflow: hidden;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    width: 960px;
+    margin: 0 auto;
+    padding: 50px 0;
+}
+
+footer ul p {
+    margin-bottom: 20px;
+    font-size: 18px;
+}
+
+footer ul li a {
+    color: black;
+}
+
+footer ul li {
+    margin-bottom: 5px;
+}

@@ -1,0 +1,48 @@
+.container {
+    width: 90%;
+}
+
+.hero > div:not(:last-child) {
+    width: 90%;
+}
+
+.top-destination > div {
+    width: 90%;
+    margin: 0 auto;
+}
+
+.rectangle-card {
+    margin: 0 auto;
+    flex-direction: column;
+    width: 80%;
+    margin-bottom: 40px;
+}
+
+.info {
+    margin: 0 auto;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.info-card {
+    width: 48%;
+}
+
+.info-card:nth-child(3) {
+    margin-top: 15px;
+    width: 100%;
+    height: 200px;
+}
+
+.info-card:nth-child(3) img {
+    height: 200px;
+    object-fit: cover;
+}
+
+.footer-container {
+    width: 90%;
+}
+
+.booking-menu {
+    margin-right: 20px;
+}

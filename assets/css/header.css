@@ -1,0 +1,129 @@
+header {
+    margin-bottom: 40px;
+}
+
+/* NAVBAR */
+
+nav {
+    background-image: url(../imgs/headbar.gif);
+    display: flex;
+    justify-content: space-between;
+    height: 50px;
+    padding: 0 20px;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.628);
+    position: relative;
+}
+
+.mobile-menu {
+    color: white;
+    font-size: 25px;
+    display: none;
+}
+
+.left-nav,
+.right-nav {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+.left-nav ul,
+.right-nav ul {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+.register {
+    border: none;
+    color: #ff7701;
+    background-color: white;
+    padding: 5px 10px;
+    font-size: 14px;
+}
+
+/* HERO */
+
+.hero {
+    display: flex;
+    box-sizing: border-box;
+    background-image: url(../imgs/beach.jpg);
+    flex-direction: column;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.hero > div:not(:last-child) {
+    width: 960px;
+    margin: 20px auto 30px auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+/* ANNOUNCE HERO */
+
+.hero-announce {
+    width: 350px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+.hero-announce h1 {
+    font-family: 'easyJet Headline';
+    font-size: 60px;
+    color: white;
+}
+
+.hero-announce p {
+    color: white;
+    font-size: 20px;
+}
+
+.hero-announce .start-at {
+    font-size: 15px;
+}
+
+.hero-announce .price {
+    font-size: 45px;
+}
+
+.hero-announce button {
+    align-self: flex-start;
+}
+
+/* TOP-DESTINATION HERO*/
+
+.top-destination {
+    background-color: rgba(255, 255, 255, 0.7);
+    width: 100%;
+    margin-top: 20px;
+    padding: 15px 0;
+}
+
+.top-destination > div {
+    width: 960px;
+    margin: 0 auto;
+}
+
+.destination {
+    display: flex;
+    justify-content: space-between;
+    font-size: 14px;
+}
+
+.destination > div {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.destination button {
+    align-self: flex-start;
+}
+
+.destination-info p {
+    margin-top: 15px;
+    font-size: 12px;
+}

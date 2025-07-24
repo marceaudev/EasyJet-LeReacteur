@@ -1,0 +1,13 @@
+.carrousel {
+    display: flex;
+    width: 100%;
+    overflow: scroll;
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+    margin-bottom: 20px;
+    gap: 20px;
+}
+
+.carrousel::-webkit-scrollbar {
+    display: none;
+}

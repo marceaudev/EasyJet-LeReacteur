@@ -1,0 +1,155 @@
+.booking-menu {
+    width: 350px;
+    box-sizing: border-box;
+}
+
+.booking-category {
+    display: flex;
+    gap: 4px;
+    width: 100%;
+    justify-content: space-around;
+}
+
+.booking-category div {
+    width: 100%;
+    display: flex;
+    height: 30px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 4px 4px 0px 0px;
+}
+
+.vols {
+    background-color: white;
+}
+
+.hotels,
+.voitures {
+    background-color: #333333;
+    color: white;
+}
+
+.booking-content {
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    background-color: white;
+}
+
+.booking-checkbox {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.booking-checkbox #checkbox {
+    width: 35px;
+    height: 35px;
+}
+
+.booking-from-to {
+    display: flex;
+}
+
+.from-to-left {
+    border: 1px solid rgb(219, 219, 219);
+    display: flex;
+    flex-direction: column;
+    padding: 0 5px;
+    width: 80%;
+}
+
+.from-to-left div {
+    display: flex;
+    align-items: center;
+}
+
+.booking-from-to input {
+    width: 100%;
+    border: none;
+    height: 35px;
+}
+
+.line {
+    margin: 0 auto;
+    width: 80%;
+    height: 1px;
+    background-color: rgb(219, 219, 219);
+}
+
+.from-to-right {
+    display: flex;
+    flex-direction: column;
+    color: #f97703;
+    justify-content: space-around;
+    font-size: 30px;
+    width: 15%;
+    align-items: center;
+}
+
+.booking-go-back {
+    border: 1px solid rgb(219, 219, 219);
+    display: flex;
+    flex-direction: column;
+    padding: 0 5px;
+    width: 80%;
+}
+
+.booking-go-back div {
+    display: flex;
+    align-items: center;
+}
+
+.booking-go-back input {
+    width: 100%;
+    border: none;
+    height: 35px;
+}
+
+.booking-go-back label {
+    color: #f97703;
+}
+
+.booking-go-back i {
+    color: #f97703;
+    font-size: 25px;
+    margin-right: 4px;
+}
+
+.booking-person {
+    display: flex;
+    flex-direction: column;
+}
+
+.booking-person div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.booking-person span {
+    color: #f97703;
+    font-size: 40px;
+    padding: 0;
+}
+
+.booking-person .grey {
+    color: rgb(219, 219, 219);
+}
+
+.booking-person .number {
+    width: 50px;
+    text-align: center;
+    font-size: 25px;
+}
+
+.booking-info {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.booking-info a {
+    color: #f97703;
+}
